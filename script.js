@@ -4,7 +4,7 @@ function pomo(){
 
     if (min < 25) return alert('ai não né brother, vai estudar mais!!!');
 
-    for (let i = 0; i <= min; i++){
+    for (let i = 0; i < min; i++){
         min -= 25;
         pomo++;
         if (pomo%4 == 0){
